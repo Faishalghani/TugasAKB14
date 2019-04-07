@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+>
+
+    <TextView
+        android:text="Nama Panggilan Kamu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_name"
+        android:textSize="28dp"
+        android:textColor="#DE000000"
+        android:textFontWeight="bold"
+        android:layout_marginBottom="20dp"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/name"
+        android:layout_marginBottom="20dp"
+        android:hint="Contoh: Budi"/>
+    <TextView
+        android:text="Umur Kamu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_age"
+        android:textSize="28dp"
+        android:textColor="#DE000000"
+        android:textFontWeight="bold"
+        android:layout_marginBottom="20dp"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/ages"
+        android:textSize="18sp"
+        android:maxLength="3"
+        android:hint="Contoh: 12"
+    />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:paddingBottom="30dp"
+        android:clipToPadding="false"
+    >
+        <Button
+            android:text="Selanjutnya"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/start"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:background="@drawable/button_primary"
+        />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Sun Apr 07 00:00:25 ICT 2019
+1.base=D\:\\faisal\\AplikasiKomputasiLat1-master\\app\\build\\intermediates\\merged_assets\\release\\mergeReleaseAssets\\out
+2.path=classes.dex
+0.baseType=DIRECTORY
+2.base=D\:\\faisal\\AplikasiKomputasiLat1-master\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+2.set=DEX
+1.baseType=DIRECTORY
+count=3
+1.set=ASSET
+0.path=fonts/nunito_bold.ttf
+0.set=ASSET
+0.base=D\:\\faisal\\AplikasiKomputasiLat1-master\\app\\build\\intermediates\\merged_assets\\release\\mergeReleaseAssets\\out
+2.baseType=DIRECTORY
+1.path=fonts/rubik_regular.ttf
